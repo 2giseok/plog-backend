@@ -40,8 +40,4 @@ Java, Spring Boot, Spring Security, MySQL, Redis, QueryDSL, Docker, GCP(Storage)
  
 > 향후 개선 방향: 현재는 캐시 삭제가 트랜잭션 커밋 이전에 실행되어 이론적으로 레이스 컨디션이 발생할 수 있음을 인지하고 있으며, `AFTER_COMMIT` 이벤트 기반으로 개선할 계획입니다. 또한 로그인 사용자까지 캐싱 범위를 넓히려면 게시글 콘텐츠와 좋아요/북마크 등 개인화 상태를 분리해 콘텐츠만 캐싱하는 구조가 필요합니다.
  
-## 링크
- 
-- 팀 프로젝트 원본 저장소: (추후 추가)
-- 배포된 서비스: https://www.plog.today
  
